@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512538722889"><hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512538722889"><hook NAME="MapStyle" zoom="1.21">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -76,7 +76,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Use cases" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_314349381" CREATED="1512538234374" MODIFIED="1512538503818">
 <node TEXT="Astrophysics" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_1217745293" CREATED="1512538385840" MODIFIED="1512538651953"/>
@@ -92,7 +91,32 @@
 </node>
 <node TEXT="Algebraic" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1318589407" CREATED="1512538068128" MODIFIED="1512538722887" HGAP_QUANTITY="21.49999977648259 pt" VSHIFT_QUANTITY="179.24999465793388 pt">
 <edge COLOR="#0000ff"/>
-<node TEXT="Inverse FMM" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1253433481" CREATED="1512538179971" MODIFIED="1512538207109"/>
+<node TEXT="Inverse FMM" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1253433481" CREATED="1512538179971" MODIFIED="1512561099042">
+<node TEXT="Use Cases" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_505997268" CREATED="1512560979000" MODIFIED="1512561095788" HGAP_QUANTITY="34.249999396502986 pt" VSHIFT_QUANTITY="-134.24999599903833 pt">
+<node TEXT="Machine Learning, AI" ID="ID_320846735" CREATED="1512560996280" MODIFIED="1512561015137"/>
+<node TEXT="Linear equation solvers" ID="ID_178155173" CREATED="1512561024583" MODIFIED="1512561034024"/>
+</node>
+<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1512561099037" HGAP_QUANTITY="96.49999754130847 pt" VSHIFT_QUANTITY="-101.24999698251494 pt">
+<node TEXT="The Inverse Fast Multipole Method" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1512561206067"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ambikasaran and Darve.
+    </p>
+    <p>
+      https://github.com/rioyokotalab/fmm-summary/issues/6
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
