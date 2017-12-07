@@ -91,13 +91,26 @@
 </node>
 <node TEXT="Algebraic" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1318589407" CREATED="1512538068128" MODIFIED="1512538722887" HGAP_QUANTITY="21.49999977648259 pt" VSHIFT_QUANTITY="179.24999465793388 pt">
 <edge COLOR="#0000ff"/>
-<node TEXT="Inverse FMM" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1253433481" CREATED="1512538179971" MODIFIED="1512562416044">
+<node TEXT="Inverse FMM" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1253433481" CREATED="1512538179971" MODIFIED="1512566528225"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Being done by Sameer.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="Use Cases" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_505997268" CREATED="1512560979000" MODIFIED="1512562406923" HGAP_QUANTITY="79.24999805539852 pt" VSHIFT_QUANTITY="-43.499998703599005 pt">
 <node TEXT="Machine Learning, AI" ID="ID_320846735" CREATED="1512560996280" MODIFIED="1512561015137"/>
 <node TEXT="Linear equation solvers" ID="ID_178155173" CREATED="1512561024583" MODIFIED="1512561034024"/>
 </node>
-<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1512562563471" HGAP_QUANTITY="82.99999794363981 pt" VSHIFT_QUANTITY="-101.9999969601632 pt">
-<node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1512562617301" HGAP_QUANTITY="178.99999508261695 pt" VSHIFT_QUANTITY="62.999998122453746 pt">
+<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1512568642671" HGAP_QUANTITY="82.99999794363981 pt" VSHIFT_QUANTITY="-101.9999969601632 pt">
+<node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1512568642668" HGAP_QUANTITY="108.49999718368062 pt" VSHIFT_QUANTITY="95.99999713897714 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_163818610" STARTINCLINATION="-70;78;" ENDINCLINATION="27;-39;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_178155173" STARTINCLINATION="-215;-40;" ENDINCLINATION="41;65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
@@ -121,7 +134,28 @@
 </node>
 </node>
 <node TEXT="Methods" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_673910380" CREATED="1512562344305" MODIFIED="1512562413115" HGAP_QUANTITY="81.4999979883433 pt" VSHIFT_QUANTITY="8.999999731779106 pt">
-<node TEXT="H-matrix" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_163818610" CREATED="1512562351474" MODIFIED="1512562511430"/>
+<node TEXT="H-matrix" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_163818610" CREATED="1512562351474" MODIFIED="1512566504752"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      H-matrix greatly reduces the storage required by a dense matrix. H2-matrix is an improved form that uses FMM for generating the hierarchical representation from general low-rank structure. See this: https://en.wikipedia.org/wiki/Hierarchical_matrix#H2-matrices
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Whereas a dense matrix requires O(n^2) storage, H2-matrix can store in O(nk), where k is accuracy parameter.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Hierarchically semi-separable" ID="ID_584275497" CREATED="1512565685172" MODIFIED="1512565699951"/>
 </node>
 </node>
 </node>
