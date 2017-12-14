@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512561979635"><hook NAME="MapStyle" zoom="0.909">
+<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512805215492"><hook NAME="MapStyle" zoom="0.684">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -61,7 +61,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Analytical" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_450345435" CREATED="1512538034386" MODIFIED="1512561979631" HGAP_QUANTITY="-126.99999579787269 pt" VSHIFT_QUANTITY="-136.4999959319831 pt">
 <edge COLOR="#ff0000"/>
 <node TEXT="Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1523375420" CREATED="1512538093959" MODIFIED="1512538279440"><richcontent TYPE="DETAILS">
@@ -108,11 +108,11 @@
 <node TEXT="Machine Learning, AI" ID="ID_320846735" CREATED="1512560996280" MODIFIED="1512561015137"/>
 <node TEXT="Linear equation solvers" ID="ID_178155173" CREATED="1512561024583" MODIFIED="1512561034024"/>
 </node>
-<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1512802469467" HGAP_QUANTITY="82.99999794363981 pt" VSHIFT_QUANTITY="-101.9999969601632 pt">
-<node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1512805111119" HGAP_QUANTITY="122.74999675899753 pt" VSHIFT_QUANTITY="98.24999707192191 pt">
+<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1513232633403" HGAP_QUANTITY="82.99999794363981 pt" VSHIFT_QUANTITY="-101.9999969601632 pt">
+<node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1513232935243" HGAP_QUANTITY="130.24999653548008 pt" VSHIFT_QUANTITY="-21.74999935179951 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_163818610" STARTINCLINATION="-70;78;" ENDINCLINATION="27;-39;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263943259" STARTINCLINATION="37;26;" ENDINCLINATION="-36;-12;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_178155173" STARTINCLINATION="-215;-40;" ENDINCLINATION="41;65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263943259" SOURCE_LABEL="A" TARGET_LABEL="B" MIDDLE_LABEL="A has improvement of time complexity than B and applies to FMM matrices." STARTINCLINATION="243;76;" ENDINCLINATION="177;-144;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
 <html>
@@ -129,11 +129,11 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Fast direct linear equation solver" ID="ID_1579208556" CREATED="1512561242077" MODIFIED="1512802414372" HGAP_QUANTITY="146.74999604374182 pt" VSHIFT_QUANTITY="-56.99999830126767 pt"/>
-<node TEXT="Works with a more general class of FMM matrix. Abandons HSS matrix found in previous papers." LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_1966378258" CREATED="1512646785811" MODIFIED="1512804777481" HGAP_QUANTITY="84.49999789893633 pt" VSHIFT_QUANTITY="0.7499999776482589 pt"/>
-<node TEXT="Direct solver for FMM matrices in all dimensions." ID="ID_979684408" CREATED="1512646874803" MODIFIED="1512804781014" HGAP_QUANTITY="100.24999742954978 pt" VSHIFT_QUANTITY="20.249999396502993 pt"/>
-<node TEXT="FMM graph partitioning different from general nested dissection approach." ID="ID_1969617096" CREATED="1512802192435" MODIFIED="1512802252648" HGAP_QUANTITY="67.24999841302639 pt" VSHIFT_QUANTITY="35.249998949468164 pt">
-<node TEXT="Nested Dissection approach" ID="ID_1868002985" CREATED="1512802266190" MODIFIED="1512802331422"><richcontent TYPE="DETAILS" HIDDEN="true">
+<node TEXT="Fast direct linear equation solver in O(N) time." ID="ID_1579208556" CREATED="1512561242077" MODIFIED="1513232882260" HGAP_QUANTITY="100.99999740719802 pt" VSHIFT_QUANTITY="-39.7499988153577 pt"/>
+<node TEXT="Works with a more general class of FMM matrix." LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_1966378258" CREATED="1512646785811" MODIFIED="1513232891972" HGAP_QUANTITY="112.24999707192191 pt" VSHIFT_QUANTITY="-24.74999926239255 pt"/>
+<node TEXT="Direct solver for FMM matrices in all dimensions." ID="ID_979684408" CREATED="1512646874803" MODIFIED="1512807727553" HGAP_QUANTITY="119.7499968484045 pt" VSHIFT_QUANTITY="-34.499998971819906 pt"/>
+<node TEXT="FMM graph partitioning different from general nested dissection approach." ID="ID_1969617096" CREATED="1512802192435" MODIFIED="1512807730587" HGAP_QUANTITY="104.74999729543933 pt" VSHIFT_QUANTITY="-36.749998904764695 pt">
+<node TEXT="Nested Dissection approach" ID="ID_1868002985" CREATED="1512802266190" MODIFIED="1513232908411"><richcontent TYPE="DETAILS" HIDDEN="true">
 
 <html>
   <head>
@@ -148,27 +148,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="When solving sparse matrix, fill-ins corresponding to well-separated clusters are hierarchically compressed." LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_915917735" CREATED="1512802337152" MODIFIED="1512802723866" HGAP_QUANTITY="79.99999803304678 pt" VSHIFT_QUANTITY="42.74999872595075 pt"/>
-<node TEXT="Weak admissibility criteria of matrix." ID="ID_750448819" CREATED="1512804834445" MODIFIED="1512805111118" HGAP_QUANTITY="156.49999575316917 pt" VSHIFT_QUANTITY="118.4999964684249 pt" TEXT_SHORTENED="true"><richcontent TYPE="DETAILS" HIDDEN="true">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      It means that the off-diagonal blocks of the matrix cannot be subdivided further.
-    </p>
-  </body>
-</html>
-
-</richcontent>
-<hook URI="../../Pictures/weak%20admissibility.jpg" SIZE="0.94043887" NAME="ExternalObject"/>
-</node>
+<node TEXT="When solving sparse matrix, fill-ins corresponding to well-separated clusters are hierarchically compressed." LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_915917735" CREATED="1512802337152" MODIFIED="1512807734738" HGAP_QUANTITY="112.24999707192192 pt" VSHIFT_QUANTITY="-28.499999150633826 pt"/>
+<node TEXT="Relies on compressing the interaction between non-neighbouring clusters." ID="ID_1519798823" CREATED="1512807620665" MODIFIED="1512807721205" HGAP_QUANTITY="108.49999718368062 pt" VSHIFT_QUANTITY="-13.499999597668662 pt"/>
 </node>
 <node TEXT="Ambikarasan PhD thesis" ID="ID_263943259" CREATED="1512724207576" MODIFIED="1512802469460" HGAP_QUANTITY="165.49999548494827 pt" VSHIFT_QUANTITY="176.9999947249891 pt"><richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -185,6 +169,7 @@
 </richcontent>
 <node TEXT="Very good explanations of hierarchical matrices." ID="ID_388115922" CREATED="1512724402531" MODIFIED="1512724419466"/>
 <node TEXT="Very good explanation of low rank matrices and approximation." ID="ID_1037669002" CREATED="1512724423670" MODIFIED="1512802158654" HGAP_QUANTITY="18.499999865889553 pt" VSHIFT_QUANTITY="35.99999892711642 pt"/>
+<node TEXT="Work achieves O(Nlog^2(N)) time complexity for HOLDR and HSS matrices. Application to interpolation using radial basis functions." ID="ID_1510101193" CREATED="1513232214193" MODIFIED="1513232332802"/>
 </node>
 </node>
 <node TEXT="Methods" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_673910380" CREATED="1512562344305" MODIFIED="1512562413115" HGAP_QUANTITY="81.4999979883433 pt" VSHIFT_QUANTITY="8.999999731779106 pt">
@@ -210,6 +195,38 @@
 </node>
 <node TEXT="Hierarchically semi-separable" ID="ID_584275497" CREATED="1512565685172" MODIFIED="1512565699951"/>
 </node>
+</node>
+</node>
+<node TEXT="Matrix methods." LOCALIZED_STYLE_REF="AutomaticLayout.level,2" POSITION="right" ID="ID_361542946" CREATED="1512805184395" MODIFIED="1512807283689" HGAP_QUANTITY="-119.49999602139007 pt" VSHIFT_QUANTITY="211.499993696809 pt">
+<edge COLOR="#00ff00"/>
+<node TEXT="Weak admissibility criteria of matrix." ID="ID_750448819" CREATED="1512804834445" MODIFIED="1512807283684" HGAP_QUANTITY="-301.749990589917 pt" VSHIFT_QUANTITY="259.49999226629757 pt" TEXT_SHORTENED="true"><richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      It means that the off-diagonal blocks of the matrix cannot be subdivided further.
+    </p>
+  </body>
+</html>
+</richcontent>
+<hook URI="../../Pictures/weak%20admissibility.jpg" SIZE="0.94043887" NAME="ExternalObject"/>
+</node>
+<node TEXT="Strong admissibility criteria of matrix." ID="ID_292027580" CREATED="1512805264115" MODIFIED="1512805435726" HGAP_QUANTITY="-378.2499883100394 pt" VSHIFT_QUANTITY="101.9999969601632 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Strong admissibility divides the off diagonal blocks if they are neighboring the diagonal
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
