@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512805215492"><hook NAME="MapStyle" zoom="0.684">
+<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512805215492"><hook NAME="MapStyle" zoom="0.91">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -109,9 +109,9 @@
 <node TEXT="Linear equation solvers" ID="ID_178155173" CREATED="1512561024583" MODIFIED="1512561034024"/>
 </node>
 <node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1513736587880" HGAP_QUANTITY="82.99999794363981 pt" VSHIFT_QUANTITY="-101.9999969601632 pt">
-<node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1513736732597" HGAP_QUANTITY="130.24999653548008 pt" VSHIFT_QUANTITY="-21.74999935179951 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263974459" STARTINCLINATION="1084;0;" ENDINCLINATION="1084;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1514186025568" HGAP_QUANTITY="130.24999653548008 pt" VSHIFT_QUANTITY="-21.74999935179951 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_178155173" STARTINCLINATION="-215;-40;" ENDINCLINATION="41;65;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263974459" STARTINCLINATION="1084;0;" ENDINCLINATION="1084;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263943259" SOURCE_LABEL="A" TARGET_LABEL="B" MIDDLE_LABEL="A has improvement of time complexity than B and applies to FMM matrices." STARTINCLINATION="243;76;" ENDINCLINATION="177;-144;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
@@ -171,7 +171,7 @@
 <node TEXT="Very good explanation of low rank matrices and approximation." ID="ID_1037669002" CREATED="1512724423670" MODIFIED="1512802158654" HGAP_QUANTITY="18.499999865889553 pt" VSHIFT_QUANTITY="35.99999892711642 pt"/>
 <node TEXT="Work achieves O(Nlog^2(N)) time complexity for HOLDR and HSS matrices. Application to interpolation using radial basis functions." ID="ID_1510101193" CREATED="1513232214193" MODIFIED="1513232332802"/>
 </node>
-<node TEXT="The inverse fast multipole method: using a fast approximate direct solver as a preconditioner for dense linear systems" ID="ID_227611021" CREATED="1513736572486" MODIFIED="1513736750389" HGAP_QUANTITY="150.4999959319831 pt" VSHIFT_QUANTITY="65.24999805539852 pt">
+<node TEXT="The inverse fast multipole method: using a fast approximate direct solver as a preconditioner for dense linear systems" ID="ID_227611021" CREATED="1513736572486" MODIFIED="1514186027149" HGAP_QUANTITY="150.4999959319831 pt" VSHIFT_QUANTITY="65.24999805539852 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263974459" STARTINCLINATION="47;36;" ENDINCLINATION="704;-50;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
@@ -200,9 +200,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Very good explanation of graph representation of linear equations and how they can be compressed by eliminating variables." ID="ID_1618896905" CREATED="1513736671524" MODIFIED="1513736707114"/>
+<node TEXT="Very good explanation of graph representation of linear equations and how they can be compressed by eliminating variables." ID="ID_1618896905" CREATED="1513736671524" MODIFIED="1514186018335" HGAP_QUANTITY="144.49999611079704 pt" VSHIFT_QUANTITY="-17.999999463558222 pt"/>
+<node TEXT="Good explanation of matrix representation of FMM." ID="ID_702066575" CREATED="1514179898167" MODIFIED="1514186020198" HGAP_QUANTITY="157.9999957084657 pt" VSHIFT_QUANTITY="23.249999307096026 pt"/>
+<node TEXT="rSVD is used for splitting the matrix into low rank components such that most of the action of the matrix can be be recovered." ID="ID_1003907656" CREATED="1514180079305" MODIFIED="1514186021992" HGAP_QUANTITY="139.9999962449075 pt" VSHIFT_QUANTITY="20.24999939650299 pt"/>
+<node TEXT="Rank of low rank matrix blocks remains almost constant as the number of total elements increases due to strong admissibility of H2 matrices." ID="ID_8629573" CREATED="1514184867029" MODIFIED="1514186023807" HGAP_QUANTITY="135.49999637901794 pt" VSHIFT_QUANTITY="21.74999935179951 pt"/>
+<node TEXT="Argues that it is more efficient to use a low accuracy IFMM as a pre-conditioner to in an iterative method than use a very accurate IFMM in a direct solver." ID="ID_1505326114" CREATED="1514185945125" MODIFIED="1514186027142" HGAP_QUANTITY="122.74999675899754 pt" VSHIFT_QUANTITY="50.9999984800816 pt"/>
 </node>
 </node>
 </node>
