@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512805215492"><hook NAME="MapStyle" zoom="0.91">
+<node TEXT="Yokota Lab FMM group" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1219029050" CREATED="1512537840461" MODIFIED="1512805215492"><hook NAME="MapStyle" zoom="0.827">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -108,12 +108,12 @@
 <node TEXT="Machine Learning, AI" ID="ID_320846735" CREATED="1512560996280" MODIFIED="1512561015137"/>
 <node TEXT="Linear equation solvers" ID="ID_178155173" CREATED="1512561024583" MODIFIED="1512561034024"/>
 </node>
-<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1514277764922" HGAP_QUANTITY="116.74999693781146 pt" VSHIFT_QUANTITY="119.99999642372143 pt">
+<node TEXT="Papers" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_104049511" CREATED="1512561038096" MODIFIED="1515663057476" HGAP_QUANTITY="116.74999693781146 pt" VSHIFT_QUANTITY="119.99999642372143 pt">
 <node TEXT="The Inverse Fast Multipole Method" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" FOLDED="true" ID="ID_680717870" CREATED="1512561067447" MODIFIED="1514277779202" HGAP_QUANTITY="148.24999599903828 pt" VSHIFT_QUANTITY="-50.24999850243334 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263974459" STARTINCLINATION="1244;0;" ENDINCLINATION="1084;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263943259" SOURCE_LABEL="A" TARGET_LABEL="B" MIDDLE_LABEL="A has improvement of time complexity than B and applies to FMM matrices." STARTINCLINATION="243;76;" ENDINCLINATION="177;-144;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_178155173" STARTINCLINATION="-27;-19;" ENDINCLINATION="49;51;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_227611021" SOURCE_LABEL="A" TARGET_LABEL="B" MIDDLE_LABEL="B uses A as a preconditioner for linear eq solutions.&#xa;B has a very good explanation of the algorithm followed in A." STARTINCLINATION="245;54;" ENDINCLINATION="263;-55;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_263943259" SOURCE_LABEL="A" TARGET_LABEL="B" MIDDLE_LABEL="A has improvement of time complexity than B and applies to FMM matrices." STARTINCLINATION="243;76;" ENDINCLINATION="177;-144;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1934446547" SOURCE_LABEL="A" TARGET_LABEL="B" MIDDLE_LABEL="The algorithm in A&#xa;is implemented in B." STARTINCLINATION="-27;299;" ENDINCLINATION="18;-50;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
 
@@ -208,6 +208,27 @@
 <node TEXT="rSVD is used for splitting the matrix into low rank components such that most of the action of the matrix can be be recovered." ID="ID_1003907656" CREATED="1514180079305" MODIFIED="1514186021992" HGAP_QUANTITY="139.9999962449075 pt" VSHIFT_QUANTITY="20.24999939650299 pt"/>
 <node TEXT="Rank of low rank matrix blocks remains almost constant as the number of total elements increases due to strong admissibility of H2 matrices." ID="ID_8629573" CREATED="1514184867029" MODIFIED="1514186023807" HGAP_QUANTITY="135.49999637901794 pt" VSHIFT_QUANTITY="21.74999935179951 pt"/>
 <node TEXT="Argues that it is more efficient to use a low accuracy IFMM as a pre-conditioner to in an iterative method than use a very accurate IFMM in a direct solver." ID="ID_1505326114" CREATED="1514185945125" MODIFIED="1514186027142" HGAP_QUANTITY="122.74999675899754 pt" VSHIFT_QUANTITY="50.9999984800816 pt"/>
+</node>
+<node TEXT="FAST HIERARCHICAL SOLVERS FOR SPARSE MATRICES USING EXTENDED SPARSIFICATION AND LOW-RANK APPROXIMATION" ID="ID_1587680438" CREATED="1515663025020" MODIFIED="1515663085714" HGAP_QUANTITY="190.24999474734085 pt" VSHIFT_QUANTITY="-238.4999928921463 pt"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px">
+      Pouransari, H
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px">
+      Coulier, P
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px">
+      Darve, E
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="Code" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1317815425" CREATED="1514277396151" MODIFIED="1514277771385" HGAP_QUANTITY="136.99999633431446 pt" VSHIFT_QUANTITY="-283.49999155104183 pt">
